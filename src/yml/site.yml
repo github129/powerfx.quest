@@ -1,0 +1,25 @@
+name: PowerFx.quest
+title: PowerFx.quest
+description: I post news and samples about Power Platform.
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
+email: bb9121@outlook.jp
+# See: https://disqus.com/
+disqus_username: power-platformliu
+# Contact Form Setting
+# See: https://formspree.io/
+formspree_form_id: xqkwdjkg
