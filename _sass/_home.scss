@@ -39,6 +39,9 @@
   transition: all 0.3s;
   position: relative;
   z-index: 1;
+  border-radius: 10px;
+  background: rgb(236, 236, 236);
+  box-shadow: rgb(17 17 26 / 5%) 0px 1px 0px, rgb(17 17 26 / 10%) 0px 0px 8px;
 
   @include media(">=sm") {
     margin: 0 rem($itemMargin) rem(30px);
