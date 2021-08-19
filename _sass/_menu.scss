@@ -34,7 +34,7 @@ aside.sidebar {
   height: 100%;
   top: 0;
   left: rem(-240px);
-  background-color: $accentDark;
+  background-color: #fff;
   z-index: 20;
 
   @include media(">=sm") {
@@ -49,8 +49,8 @@ aside.sidebar {
     margin: 0 rem(20px) 0;
     @include mainFont(400);
     font-size: rem(18px);
-    color: $primaryDark;
-    border-bottom: 1px solid $primaryDark;
+    color: $accentDark;
+    border-bottom: 1px solid $accentDark;
     line-height: 50px;
 
     @include media(">=sm") {
@@ -77,10 +77,9 @@ aside.sidebar {
           padding: rem(15px) rem(20px);
           text-decoration: none;
           @include mainFont(300);
-          color: $primaryDark;
+          color: $accentDark;
 
           &:hover {
-            color: $accentDark;
             background: $themeColor;
           }
         }
